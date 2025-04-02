@@ -30,6 +30,9 @@ export default function Navbar() {
           <Link href="/">
             <a className="text-white hover:text-primary transition-colors text-sm">Discover</a>
           </Link>
+          <Link href="/share-code">
+            <a className="text-white hover:text-primary transition-colors text-sm">Share Code</a>
+          </Link>
           <Link href="/marketplace">
             <a className="text-white hover:text-primary transition-colors text-sm">Marketplace</a>
           </Link>
@@ -59,6 +62,9 @@ export default function Navbar() {
               <div className="flex flex-col gap-6 mt-8">
                 <Link href="/">
                   <a className="text-white hover:text-primary transition-colors text-lg">Discover</a>
+                </Link>
+                <Link href="/share-code">
+                  <a className="text-white hover:text-primary transition-colors text-lg">Share Code</a>
                 </Link>
                 <Link href="/marketplace">
                   <a className="text-white hover:text-primary transition-colors text-lg">Marketplace</a>
